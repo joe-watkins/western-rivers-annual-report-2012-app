@@ -6,10 +6,10 @@
         id        = "com.bryanpotterdesign.fullscreen-gallery"
         version   = "1.0.0">
 
-    <name>Fullscreen Gallery</name>
+    <name>Western Rivers App</name>
 
     <description>
-        A fullscreen gallery app.
+        Western River's Annual Report
     </description>
 
     <author href="http://bryanpotterdesign.com" email="support@bryanpotterdesign.com">
@@ -24,8 +24,6 @@
 
     <!-- Platform Build -->
     <gap:platform name="ios" />
-    <gap:platform name="android" />
-    <gap:platform name="winphone" />
 
     <!--
         If you do not want any permissions to be added to your app, add the
