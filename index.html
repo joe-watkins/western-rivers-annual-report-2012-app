@@ -5,9 +5,9 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <title>Western Rivers App</title>
   <meta name="viewport" content="width=device-width">
-  <link href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,500,700|Oswald" rel="stylesheet">
+ <!-- <link href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,500,700|Oswald" rel="stylesheet"> -->
   <link rel="stylesheet" href="styles/main.css">
-  <script src="bower_components/modernizr/modernizr.js"></script>
+  <script src="scripts/vendor/modernizr.js"></script>
 </head>
 <body class="yampa-river">
 
@@ -36,23 +36,8 @@
       </p>
 
       <h3>2012 Study Areas</h3>
-      <ul>
-        <li><a href="/projects/yampa-river/">Yampa River</a></li>
-        <li><a href="/projects/klamath-river-blue-canyon">Klamath River &amp; Blue Canyon</a></li>
-        <li><a href="/projects/gunnison-river">Gunnison River</a></li>
-        <li><a href="/projects/john-day-river">John Day River</a></li>
-        <li><a href="/projects/salmon-river">Salmon River</a></li>
-        <li><a href="/projects/sandy-river">Sandy River</a></li>
-        <li><a href="/projects/lower-deer-creek-falls">Lower Deer Creek Falls</a></li>
-        <li><a href="/projects/little-cimarron-river">Little Cimarron River</a></li>
-        <li><a href="/projects/hood-river">Hood River</a></li>
-        <li><a href="/projects/alsea-river-drift-creek">Alsea River &amp; Drift Creek</a></li>
-        <li><a href="/projects/nason-creek">Nason Creek</a></li>
-        <li><a href="/projects/north-santiam">North Santiam</a></li>
-        <li><a href="/projects/elk-river">Elk River</a></li>
-        <li><a href="/projects/eel-river">Eel River</a></li>
-        <li><a href="/projects/minam-river">Minam River</a></li>
-      </ul>
+      <div class="nav-handle"></div>
+
     
   </div>
 </nav>
@@ -60,7 +45,10 @@
 <main role="main">
   <div class="container">
 
+
+
     <h3>Lorem Ipsum but a little longer</h3>
+    <i class="icon-camera-retro"></i>
     <p class="lead">On Northern California's remote Redwood Coast, a stream called Blue Creek flows cold and clear from the Siskiyou Mountains. It meets the Klamath River 16 miles upstream from the Pacific, injecting the Klamath with a life-giving dose of clean, cold water. When the Klamath is stressed by low flows and warm temperatures, Blue Creek becomes the lower river's most important cold-water refuge for returning salmon and steelhead. Nearly every one of these fish holds in Blue Creek, lowering its body temperature by an average of eight degrees. Without this cool-down period, most salmon and steelhead would likely die before reaching their spawning grounds upstream.</p>
 
     <figure class="left">
@@ -474,21 +462,10 @@
   </div>
 </footer>
 
-<!-- build:js scripts/vendor.js -->
-<!-- bower:js -->
-<script src="/bower_components/jquery/jquery.js"></script>
-<script src="/bower_components/picturefill/picturefill.js"></script>
-<script src="/bower_components/jquery-touchswipe/jquery.touchSwipe.js"></script>
-<script src="/bower_components/jquery.scrollTo/jquery.scrollTo.js"></script>
-<!-- endbower -->
-<!-- endbuild -->
+<script src="scripts/vendor.js"></script>
 
-<!-- build:js scripts/main.js -->
-<script src="/scripts/main.js"></script>
-<!-- endbuild -->
+<script src="scripts/main.js"></script>
 
-<!-- build:js scripts/plugins.js -->
-<script src="/bower_components/sass-bootstrap/js/collapse.js"></script>
-<!-- endbuild -->
+<script src="scripts/plugins.js"></script>
 </body>
 </html>
