@@ -22,7 +22,7 @@ Mark up your responsive images like this.
 		<span data-src="small.jpg"></span>
 		<span data-src="medium.jpg"     data-media="(min-width: 400px)"></span>
 		<span data-src="large.jpg"      data-media="(min-width: 800px)"></span>
-		<span data-src="extralarge.jpg" data-media="(min-width: 1000px)"></span>
+		<span data-src="extralarge.jpg" data-media="(min-width: 767px)"></span>
 
 		<!-- Fallback content for non-JS browsers. Same img src as the initial, unqualified source element. -->
 		<noscript>
@@ -79,8 +79,8 @@ Picturefill natively supports HD(Retina) image replacement.  While numerous othe
 		<span data-src="medium_x2.jpg"     data-media="(min-width: 400px) and (min-device-pixel-ratio: 2.0)"></span>
 		<span data-src="large.jpg"         data-media="(min-width: 800px)"></span>
 		<span data-src="large_x2.jpg"      data-media="(min-width: 800px) and (min-device-pixel-ratio: 2.0)"></span>	
-		<span data-src="extralarge.jpg"    data-media="(min-width: 1000px)"></span>
-		<span data-src="extralarge_x2.jpg" data-media="(min-width: 1000px) and (min-device-pixel-ratio: 2.0)"></span>	
+		<span data-src="extralarge.jpg"    data-media="(min-width: 767px)"></span>
+		<span data-src="extralarge_x2.jpg" data-media="(min-width: 767px) and (min-device-pixel-ratio: 2.0)"></span>	
 
 		<!-- Fallback content for non-JS browsers. Same img src as the initial, unqualified source element. -->
 		<noscript>
