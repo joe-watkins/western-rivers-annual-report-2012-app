@@ -1,158 +1,60 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
-
+<!DOCTYPE html>
+<html lang="en">
 	<head>
-
-		<title>Supersized - Full Screen Background Slideshow jQuery Plugin</title>
-		<meta http-equiv="content-type" content="text/html; charset=UTF-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-
-		<link href="styles/supersized.css" rel="stylesheet">
-		
-		<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.1/jquery.min.js"></script>
-		<script type="text/javascript" src="javascript/extras.js"></script>
-		<script type="text/javascript" src="javascript/scripts.min.js"></script>
+		<title>Gallery</title>
+		<meta charset="utf-8" />
+		<meta name="apple-mobile-web-app-capable" content="yes" />
 
 		
-		
+		<style type="text/css">
+			body {
+				margin: 0px;
+				background: #000;
+			}
+			.back-button {
+				position:absolute;
+				top:0px;
+				left:0px;
+				background: rgba(0,0,0, .3);
+				z-index: 9999;
+				padding:10px;
+				font-family: arial;
+				color:#fff;
+			}
+			.back-button a {
+				color:#fff;
+				text-decoration: none;
+			}
+			.jbn-right-button,.jbn-left-button {
+				display:none !important;
+			}
+		</style>
 	</head>
+	<body>
 
-
-<body>
-
-	<div class="back-to-app-bar">
-		<a href="javascript:history.back();">&laquo; Back to Report</a>
-	</div>
-
-	<div class="swipe-target"></div><!-- target for swipe -->
-
-
-	
-	<!-- image files -->
-	<ul class="full-screen-gallery-images">
-
-			<li data-thumbnail="images/fullscreen-gallery/gallery/gunnison-river-thumb.jpg" data-caption="On the Gunnison River, WRC conveyed 617 acres to the BLM. Photo: Russ Schnitzer"><img src="images/fullscreen-gallery/gallery/gunnison-river.jpg"></li>
-
-			<li data-thumbnail="images/fullscreen-gallery/gallery/alsea-river-drift-creek-pelican-thumb.jpg" 
-			data-caption="Brown pelicans were only recently removed from the Endangered Species Act list. Photo: Thomas Knoop"><img src="images/fullscreen-gallery/gallery/alsea-river-drift-creek-pelican.jpg"></li>
-
-			<li data-thumbnail="images/fullscreen-gallery/gallery/alsea-river-drift-creek-thumb.jpg" data-caption="The Alsea River estuary holds some of the best remaining coho spawning habitats. Photo: Russ Schnitzer"><img src="images/fullscreen-gallery/gallery/alsea-river-drift-creek.jpg"></li>
-
-			<li data-thumbnail="images/fullscreen-gallery/gallery/blue-creek-p26.jpg" data-caption="Blue Creek is a lifesaving source of cold water for Klamath River salmon. Photo: Dave Jensen"><img src="images/fullscreen-gallery/gallery/blue-creek-p26.jpg"></li>
-
-			<li data-thumbnail="images/fullscreen-gallery/gallery/eel-river-google-earth-thumb.jpg" data-caption="WRC’s conservation efforts in the Eel River estuary will help restore 440 acres of tidal wetlands."><img src="images/fullscreen-gallery/gallery/eel-river-google-earth.jpg"></li>
-
-			<li data-thumbnail="images/fullscreen-gallery/gallery/eel-river-thumb.jpg" data-caption="Marbled godwits inhabit California’s Eel River estuary. Photo: Ron Wolf"><img src="images/fullscreen-gallery/gallery/eel-river.jpg"></li>
-
-			<li data-thumbnail="images/fullscreen-gallery/gallery/elk-river-coho-thumb.jpg" data-caption="The Elk River supports one of the healthiest runs of coho salmon on the West Coast. Photo: Thomas Kline"><img src="images/fullscreen-gallery/gallery/elk-river-coho.jpg"></li>
-
-			<li data-thumbnail="images/fullscreen-gallery/gallery/elk-river-p31-thumb.jpg" data-caption="Oregon’s Elk River provides prime habitat for coho and Chinook salmon. Photo: Wood Sabold"><img src="images/fullscreen-gallery/gallery/elk-river-p31.jpg"></li>
-
-			<li data-thumbnail="images/fullscreen-gallery/gallery/elk-river-thumb.jpg" data-caption="Pacific temperate rainforest surrounds Oregon’s Elk River. Photo: Russ Schnitzer"><img src="images/fullscreen-gallery/gallery/elk-river.jpg"></li>
-
-			<li data-thumbnail="images/fullscreen-gallery/gallery/gunnison-river-rafters-thumb.jpg" data-caption="WRC’s work on the Gunnison River protects native warm-water fish. Photo: Richard Durnan"><img src="images/fullscreen-gallery/gallery/gunnison-river-rafters.jpg"></li>
-
-			
-
-			<li data-thumbnail="images/fullscreen-gallery/gallery/hoh-river-p2-thumb.jpg" data-caption="Hoh River. Photo: Josh Kling"><img src="images/fullscreen-gallery/gallery/hoh-river-p3.jpg"></li>
-
-			<li data-thumbnail="images/fullscreen-gallery/gallery/hood-river-otter-thumb.jpg" data-caption="Northern river otters inhabit hidden dens along the banks of the Hood River. Photo: Tom and Pat Leeson"><img src="images/fullscreen-gallery/gallery/hood-river-otter.jpg"></li>
-
-			<li data-thumbnail="images/fullscreen-gallery/gallery/hood-river-thumb.jpg" data-caption="WRC’s acquisitions on the Hood River permanently protect the East and West forks. Photo: Steve Terrill"><img src="images/fullscreen-gallery/gallery/hood-river.jpg"></li>
-
-			<li data-thumbnail="images/fullscreen-gallery/gallery/john-day-river-fishing-thumb.jpg" data-caption="Randy Labbe wades back to shore after steelhead fishing on the John Day River. Photo: Don Elder"><img src="images/fullscreen-gallery/gallery/john-day-river-fishing.jpg"></li>
-
-			<li data-thumbnail="images/fullscreen-gallery/gallery/john-day-river-thumb.jpg" data-caption="Sweeping gooseneck bends & towering basalt cliffs typify the John Day River. Photo: Dave Jensen"><img src="images/fullscreen-gallery/gallery/john-day-river.jpg"></li>
-
-			<li data-thumbnail="images/fullscreen-gallery/gallery/klamath-river-blue-creek-chinook-thumb.jpg" data-caption="Klamath River salmon runs are some of the most recoverable on the West Coast. Photo: Barrie Kovish"><img src="images/fullscreen-gallery/gallery/klamath-river-blue-creek-chinook.jpg"></li>
-
-			<li data-thumbnail="images/fullscreen-gallery/gallery/klamath-river-blue-creek-thumb.jpg" data-caption="The Blue Pool, at the confluence of Blue Creek and the Klamath River. Photo: Dave Jensen"><img src="images/fullscreen-gallery/gallery/klamath-river-blue-creek.jpg"></li>
-
-			<li data-thumbnail="images/fullscreen-gallery/gallery/klamath-valley-lupines-p32-thumb.jpg" data-caption="Klamath Valley lupines. Photo: Dave Jensen"><img src="images/fullscreen-gallery/gallery/klamath-valley-lupines-p32.jpg"></li>
-
-			<li data-thumbnail="images/fullscreen-gallery/gallery/little-cimarron-river-dry-stretch-thumb.jpg" data-caption="The Little Cimarron Photo: Russ Schnitzer"><img src="images/fullscreen-gallery/gallery/little-cimarron-river-dry-stretch.jpg"></li>
-
-			<li data-thumbnail="images/fullscreen-gallery/gallery/little-cimarron-river-thumb.jpg" data-caption="The upper reaches of the Little Cimarron are prime trout water. Photo: Richard Durnan"><img src="images/fullscreen-gallery/gallery/little-cimarron-river.jpg"></li>
-
-			<li data-thumbnail="images/fullscreen-gallery/gallery/lower-deer-creek-falls-hikers-thumb.jpg" data-caption="WRC’s efforts on Deer Creek complete a popular riverside trail. Photo: Jenny Duvander"><img src="images/fullscreen-gallery/gallery/lower-deer-creek-falls-hikers.jpg"></li>
-
-			<li data-thumbnail="images/fullscreen-gallery/gallery/lower-deer-creek.jpg" data-caption="Deer Creek Photo: Cindy Diaz"><img src="images/fullscreen-gallery/gallery/lower-deer-creek.jpg"></li>
-
-			<li data-thumbnail="images/fullscreen-gallery/gallery/minam-river-p1-thumb.jpg" data-caption="Minam River. Photo: Dave Jensen"><img src="images/fullscreen-gallery/gallery/minam-river-p1.jpg"></li>
-
-			<li data-thumbnail="images/fullscreen-gallery/gallery/minam-river-rafting-thumb.jpg" data-caption="Thousands of boaters, anglers and hikers visit the Minam River every year. Photo: Leon Werdinger"><img src="images/fullscreen-gallery/gallery/minam-river-rafting.jpg"></li>
-
-			<li data-thumbnail="images/fullscreen-gallery/gallery/minam-river-thumb.jpg" data-caption="Minam River. Photo: Dave Jensen"><img src="images/fullscreen-gallery/gallery/minam-river.jpg"></li>
-
-			<li data-thumbnail="images/fullscreen-gallery/gallery/nason-creek-wolf-thumb.jpg" data-caption="Gray wolves reinhabit the Okanogan-Wenatchee National Forest, Washington. Photo: Tom and Pat Leeson"><img src="images/fullscreen-gallery/gallery/nason-creek-wolf.jpg"></li>
-
-			<li data-thumbnail="images/fullscreen-gallery/gallery/nason-creek-thumb.jpg" data-caption="Nason Creek. Photo: Lee Rentz"><img src="images/fullscreen-gallery/gallery/nason-creek.jpg"></li>
-
-			<li data-thumbnail="images/fullscreen-gallery/gallery/north-santiam-angler-thumb.jpg" data-caption="A steelhead angler fishes through the North Santiam conservation property. Photo: Steve Terrill"><img src="images/fullscreen-gallery/gallery/north-santiam-angler.jpg"></li>
-
-			<li data-thumbnail="images/fullscreen-gallery/gallery/north-santiam-thumb.jpg" data-caption="Lower North Santiam River. Photo: Steve Terrill"><img src="images/fullscreen-gallery/gallery/north-santiam.jpg"></li>
-
-			<li data-thumbnail="images/fullscreen-gallery/gallery/salmon-river-chinook-thumb.jpg" data-caption="Salmon River. Photo: Tom and Pat Leeson"><img src="images/fullscreen-gallery/gallery/salmon-river-chinook.jpg"></li>
-
-			<li data-thumbnail="images/fullscreen-gallery/gallery/salmon-river-thumb.jpg" data-caption="A hiker looks out over the remote Salmon River. Photo: Dave Jensen"><img src="images/fullscreen-gallery/gallery/salmon-river.jpg"></li>
-
-			<li data-thumbnail="images/fullscreen-gallery/gallery/sandy-river-rafters-thumb.jpg" data-caption="Rafters float the Sandy River. Photo: NW River Guides"><img src="images/fullscreen-gallery/gallery/sandy-river-rafters.jpg"></li>
-
-			<li data-thumbnail="images/fullscreen-gallery/gallery/sandy-river-thumb.jpg" data-caption="Sandy River. Photo: Steve Terrill"><img src="images/fullscreen-gallery/gallery/sandy-river.jpg"></li>
-
-			<li data-thumbnail="images/fullscreen-gallery/gallery/yampa-river-elk-thumb.jpg" data-caption="Rocky Mountain elk at the Yampa. Photo: Dave Dietrich"><img src="images/fullscreen-gallery/gallery/yampa-river-elk.jpg"></li>
-
-			<li data-thumbnail="images/fullscreen-gallery/gallery/yampa-river-thumb.jpg" data-caption="Yampa River. Photo: Rob Hanna"><img src="images/fullscreen-gallery/gallery/yampa-river.jpg"></li>
-
-
-
-
-
-
-
-	</ul>
-
-	<!--Thumbnail Navigation-->
-	<div id="prevthumb"></div>
-	<div id="nextthumb"></div>
-	
-	<!--Arrow Navigation-->
-	<a id="prevslide" class="load-item"></a>
-	<a id="nextslide" class="load-item"></a>
-	
-	<div id="thumb-tray" class="load-item">
-		<div id="thumb-back"></div>
-		<div id="thumb-forward"></div>
-	</div>
-	
-	<!--Time Bar-->
-	<div id="progress-back" class="load-item">
-		<div id="progress-bar"></div>
-	</div>
-	
-	<!--Control Bar-->
-	<div id="controls-wrapper" class="load-item">
-		<div id="controls">
-			
-			<a id="play-button"><img id="pauseplay" src="images/fullscreen-gallery/pause.png"/></a>
-		
-			<!--Slide counter-->
-			<div id="slidecounter">
-				<span class="slidenumber"></span> / <span class="totalslides"></span>
-			</div>
-			
-			<!--Slide captions displayed here-->
-			<div id="slidecaption"></div>
-			
-			<!--Thumb Tray button-->
-			<a id="tray-button"><img id="tray-arrow" src="images/fullscreen-gallery/button-tray-up.png"/></a>
-			
-			<!--Navigation-->
-			<ul id="slide-list"></ul>
-			
+		<div class="back-button">
+			<a href="javascript:history.back();">&laquo; back</a>
 		</div>
-	</div>
 
-</body>
+		<!--START JUICEBOX EMBED-->
+		<script src="jbcore/juicebox.js"></script>
+		<script>
+
+			new juicebox({
+				containerId : 'juicebox-container',
+				galleryWidth: '100%',
+				galleryHeight: '100%',
+				backgroundColor: '#000000',
+				showPreloader: false,
+				//enableLooping: true,
+				showLargeThumbs: "false",
+				showThumbsOnLoad: "false"
+
+			});
+
+		</script>
+	
+		<div id="juicebox-container"></div>
+		<!--END JUICEBOX EMBED-->
+	</body>
 </html>
