@@ -11,10 +11,7 @@
  <!-- <link href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,500,700|Oswald" rel="stylesheet"> -->
   <link rel="stylesheet" href="styles/main.css">
   <script src="scripts/vendor/modernizr.js"></script>
-<script src="bower_components/modernizr/modernizr.js"></script>
-  <!-- endbuild -->
-<script src="bower_components/modernizr/modernizr.js"></script>
-  <!-- endbuild -->
+
 
 </head>
 <body class="cover-page">
@@ -33,7 +30,7 @@
 
   <div class="logo-wrap">
     <div class="logo">
-      <img src="images/logo.png">
+      <img src="images/logo.svg" width="295" style="margin-bottom:15px">
     </div>
     <div class="title">
       <h1>Annual Report <span>2012</span></h1>
@@ -53,8 +50,15 @@
 
 <script src="scripts/plugins.js"></script>
 
+<script type="text/javascript" src="phonegap.js"></script>
 <script>
-  StatusBar.overlaysWebView(false);
+/*
+    document.addEventListener("deviceready", onDeviceReady, false);
+
+    function onDeviceReady() {
+        StatusBar.hide();
+    }
+*/
 </script>
 
 </body>

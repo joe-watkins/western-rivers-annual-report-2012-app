@@ -227,6 +227,10 @@ div.jb-area-caption
 	cursor:default;
 }
 
+.jb-caption .jb-caption-title span {
+	font-size:14px;
+}
+
 .jb-caption p 
 {
 	margin-bottom: 0 !important;

@@ -1,302 +1,348 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<juiceboxgallery>
-  <image imageURL="images/alsea-river-drift-creek-pelican.jpg"
+<juiceboxgallery 
+
+	showExpandButton="false"
+	showOpenButton="false"
+
+>
+
+<image imageURL="images/alsea-river-drift-creek.jpg"
+	thumbURL="thumbs/alsea-river-drift-creek.jpg"
+	linkURL="images/alsea-river-drift-creek.jpg"
+	linkTarget="_blank"
+	sourcePath="images/alsea-river-drift-creek.jpg">
+    <title><![CDATA[Alsea River & Drift Creek]]></title>
+    <caption><![CDATA[The Alsea River estuary holds some of the best remaining coastal coho spawning habitat on the West Coast. Photo: Russ Schnitzer &raquo; <a href="../alsea-river-drift-creek.html">view project</a>]]></caption>
+</image>
+
+<image imageURL="images/alsea-river-drift-creek-pelican.jpg"
 	thumbURL="thumbs/alsea-river-drift-creek-pelican.jpg"
 	linkURL="images/alsea-river-drift-creek-pelican.jpg"
 	linkTarget="_blank"
 	sourcePath="images/alsea-river-drift-creek-pelican.jpg"
 
 >
-    <title><![CDATA[]]></title>
-    <caption><![CDATA[Brown pelicans were only recently removed from the Endangered Species Act list. Photo: Thomas Knoop]]></caption>
-  </image>
-  <image imageURL="images/alsea-river-drift-creek.jpg"
-	thumbURL="thumbs/alsea-river-drift-creek.jpg"
-	linkURL="images/alsea-river-drift-creek.jpg"
-	linkTarget="_blank"
-	sourcePath="images/alsea-river-drift-creek.jpg">
-    <title><![CDATA[]]></title>
-    <caption><![CDATA[The Alsea River estuary holds some of the best remaining coho spawning habitats. Photo: Russ Schnitzer]]></caption>
-  </image>
-  <image imageURL="images/blue-creek-p26.jpg"
-	thumbURL="thumbs/blue-creek-p26.jpg"
-	linkURL="images/blue-creek-p26.jpg"
-	linkTarget="_blank"
-	sourcePath="images/blue-creek-p26.jpg">
-    <title><![CDATA[blue-creek-p26]]></title>
-    <caption><![CDATA[]]></caption>
-  </image>
+    <title><![CDATA[Alsea River & Drift Creek]]></title>
+    <caption><![CDATA[Brown pelicans, which were only recently removed from the Endangered Species Act list, inhabit the Alsea River estuary. Photo Credit: Thomas Knoop &raquo; <a href="../alsea-river-drift-creek.html">view project</a>]]></caption>
+</image>
+
   <image imageURL="images/eel-river-google-earth.jpg"
 	thumbURL="thumbs/eel-river-google-earth.jpg"
 	linkURL="images/eel-river-google-earth.jpg"
 	linkTarget="_blank"
 	sourcePath="images/eel-river-google-earth.jpg">
-    <title><![CDATA[eel-river-google-earth]]></title>
-    <caption><![CDATA[]]></caption>
+    <title><![CDATA[Eel River]]></title>
+    <caption><![CDATA[WRC's conservation efforts in the Eel River estuary will help restore 440 acres of tidal wetlands. &raquo; <a href="../eel-river.html">view project</a>]]></caption>
   </image>
+
   <image imageURL="images/eel-river.jpg"
 	thumbURL="thumbs/eel-river.jpg"
 	linkURL="images/eel-river.jpg"
 	linkTarget="_blank"
 	sourcePath="images/eel-river.jpg">
-    <title><![CDATA[eel-river]]></title>
-    <caption><![CDATA[]]></caption>
+    <title><![CDATA[Eel River]]></title>
+    <caption><![CDATA[Marbled godwits, whose wingspans can reach nearly three feet, are one of many shorebirds that inhabit California's Eel River estuary. Photo Credit: Ron Wolf &raquo; <a href="../eel-river.html">view project</a>]]></caption>
   </image>
+
   <image imageURL="images/elk-river-coho.jpg"
 	thumbURL="thumbs/elk-river-coho.jpg"
 	linkURL="images/elk-river-coho.jpg"
 	linkTarget="_blank"
 	sourcePath="images/elk-river-coho.jpg">
-    <title><![CDATA[elk-river-coho]]></title>
-    <caption><![CDATA[]]></caption>
+    <title><![CDATA[Elk River]]></title>
+    <caption><![CDATA[The Elk River supports one of the healthiest runs of coho salmon on the West Coast. Photo Credit: Thomas Kline &raquo; <a href="../elk-river.html">view project</a>]]></caption>
   </image>
+
   <image imageURL="images/elk-river-p31.jpg"
 	thumbURL="thumbs/elk-river-p31.jpg"
 	linkURL="images/elk-river-p31.jpg"
 	linkTarget="_blank"
 	sourcePath="images/elk-river-p31.jpg">
-    <title><![CDATA[elk-river-p31]]></title>
-    <caption><![CDATA[]]></caption>
+    <title><![CDATA[Elk River]]></title>
+    <caption><![CDATA[Oregon's Elk River courses through dense old-growth forest and provides prime habitat for coho and Chinook salmon, steelhead and sea-run cutthroat trout. Photo Credit: Wood Sabold &raquo; <a href="../elk-river.html">view project</a>]]></caption>
   </image>
+
   <image imageURL="images/elk-river.jpg"
 	thumbURL="thumbs/elk-river.jpg"
 	linkURL="images/elk-river.jpg"
 	linkTarget="_blank"
 	sourcePath="images/elk-river.jpg">
-    <title><![CDATA[elk-river]]></title>
-    <caption><![CDATA[]]></caption>
+    <title><![CDATA[Elk River]]></title>
+    <caption><![CDATA[Pacific temperate rainforest surrounds Oregon's Elk River. Photo Credit: Russ Schnitzer &raquo; <a href="../elk-river.html">view project</a>]]></caption>
   </image>
+
   <image imageURL="images/gunnison-river-rafters.jpg"
 	thumbURL="thumbs/gunnison-river-rafters.jpg"
 	linkURL="images/gunnison-river-rafters.jpg"
 	linkTarget="_blank"
 	sourcePath="images/gunnison-river-rafters.jpg">
-    <title><![CDATA[gunnison-river-rafters]]></title>
-    <caption><![CDATA[]]></caption>
+    <title><![CDATA[Gunnison River]]></title>
+    <caption><![CDATA[WRC's work on the Gunnison River protects native warm-water fish, prevents riverside mining and increases access for boaters, anglers and other river enthusiasts. Photo Credit: Richard Drunan &raquo; <a href="../gunnison-river.html">view project</a>]]></caption>
   </image>
+
   <image imageURL="images/gunnison-river.jpg"
 	thumbURL="thumbs/gunnison-river.jpg"
 	linkURL="images/gunnison-river.jpg"
 	linkTarget="_blank"
 	sourcePath="images/gunnison-river.jpg">
-    <title><![CDATA[gunnison-river]]></title>
-    <caption><![CDATA[]]></caption>
+    <title><![CDATA[Gunnison River]]></title>
+    <caption><![CDATA[On the Gunnison River, WRC conveyed 617 acres to the BLM and prevented a gravel mine on the banks of this Colorado River tributary. Photo Credit: Russ Schnitzer &raquo; <a href="../gunnison-river.html">view project</a>]]></caption>
   </image>
+
   <image imageURL="images/hoh-river-p2.jpg"
 	thumbURL="thumbs/hoh-river-p2.jpg"
 	linkURL="images/hoh-river-p2.jpg"
 	linkTarget="_blank"
 	sourcePath="images/hoh-river-p2.jpg">
-    <title><![CDATA[hoh-river-p2]]></title>
+    <title><![CDATA[Hoh River]]></title>
     <caption><![CDATA[]]></caption>
   </image>
+
   <image imageURL="images/hoh-river-p3.jpg"
 	thumbURL="thumbs/hoh-river-p3.jpg"
 	linkURL="images/hoh-river-p3.jpg"
 	linkTarget="_blank"
 	sourcePath="images/hoh-river-p3.jpg">
-    <title><![CDATA[hoh-river-p3]]></title>
+    <title><![CDATA[Hoh River]]></title>
     <caption><![CDATA[]]></caption>
   </image>
+
   <image imageURL="images/hood-river-otter.jpg"
 	thumbURL="thumbs/hood-river-otter.jpg"
 	linkURL="images/hood-river-otter.jpg"
 	linkTarget="_blank"
 	sourcePath="images/hood-river-otter.jpg">
-    <title><![CDATA[hood-river-otter]]></title>
-    <caption><![CDATA[]]></caption>
+    <title><![CDATA[Hood River]]></title>
+    <caption><![CDATA[Northern river otters inhabit hidden dens along the banks of the Hood River. Their range has been reduced by habitat loss. Photo Credit: Tom and Pat Leeson &raquo; <a href="../hood-river.html">view project</a>]]></caption>
   </image>
+
   <image imageURL="images/hood-river.jpg"
 	thumbURL="thumbs/hood-river.jpg"
 	linkURL="images/hood-river.jpg"
 	linkTarget="_blank"
 	sourcePath="images/hood-river.jpg">
-    <title><![CDATA[hood-river]]></title>
-    <caption><![CDATA[]]></caption>
+    <title><![CDATA[Hood River]]></title>
+    <caption><![CDATA[WRC's acquisitions on the Hood River permanently protect the confluence of the East and West forks (pictured) and Punch Bowl Falls, immediately upstream. Photo Credit: Steve Terrill &raquo; <a href="../hood-river.html">view project</a>]]></caption>
   </image>
+
   <image imageURL="images/john-day-river-fishing.jpg"
 	thumbURL="thumbs/john-day-river-fishing.jpg"
 	linkURL="images/john-day-river-fishing.jpg"
 	linkTarget="_blank"
 	sourcePath="images/john-day-river-fishing.jpg">
-    <title><![CDATA[john-day-river-fishing]]></title>
-    <caption><![CDATA[]]></caption>
+    <title><![CDATA[John Day River]]></title>
+    <caption><![CDATA[Conservationist and WRC supporter Randy Labbe wades back to shore after a morning of steelhead fishing on the John Day River, inside what will soon become Cottonwood Canyon State Park. Photo Credit: Don Elder &raquo; <a href="../john-day-river.html">view project</a>]]></caption>
   </image>
+
   <image imageURL="images/john-day-river.jpg"
 	thumbURL="thumbs/john-day-river.jpg"
 	linkURL="images/john-day-river.jpg"
 	linkTarget="_blank"
 	sourcePath="images/john-day-river.jpg">
-    <title><![CDATA[john-day-river]]></title>
-    <caption><![CDATA[]]></caption>
+    <title><![CDATA[John Day River]]></title>
+    <caption><![CDATA[Sweeping gooseneck bends and towering basalt cliffs typify the 16-mile stretch of the John Day River that WRC protected. Photo Credit: Dave Jensen &raquo; <a href="../john-day-river.html">view project</a>]]></caption>
   </image>
+
   <image imageURL="images/klamath-river-blue-creek-chinook.jpg"
 	thumbURL="thumbs/klamath-river-blue-creek-chinook.jpg"
 	linkURL="images/klamath-river-blue-creek-chinook.jpg"
 	linkTarget="_blank"
 	sourcePath="images/klamath-river-blue-creek-chinook.jpg">
-    <title><![CDATA[klamath-river-blue-creek-chinook]]></title>
-    <caption><![CDATA[]]></caption>
+    <title><![CDATA[Klamath River & Blue Creek]]></title>
+    <caption><![CDATA[For Klamath River Chinook salmon, Blue Creek is a cold-water lifeline that allows them to stay cool enough to survive their journey upriver to spawn. Klamath salmon runs are some of the most recoverable on the West Coast.
+photo credit: Barrie Kovish &raquo; <a href="../klamath-river-blue-creek.html">view project</a>]]></caption>
   </image>
+
+  <image imageURL="images/blue-creek-p26.jpg"
+	thumbURL="thumbs/blue-creek-p26.jpg"
+	linkURL="images/blue-creek-p26.jpg"
+	linkTarget="_blank"
+	sourcePath="images/blue-creek-p26.jpg">
+    <title><![CDATA[Klamath River & Blue Creek]]></title>
+    <caption><![CDATA[Blue Creek is a lifesaving source of cold water for Klamath River salmon and a top conservation priority for WRC. Photo Credit: Dave Jensen &raquo; <a href="../klamath-river-blue-creek.html">view project</a>]]></caption>
+  </image>
+
   <image imageURL="images/klamath-river-blue-creek.jpg"
 	thumbURL="thumbs/klamath-river-blue-creek.jpg"
 	linkURL="images/klamath-river-blue-creek.jpg"
 	linkTarget="_blank"
 	sourcePath="images/klamath-river-blue-creek.jpg">
-    <title><![CDATA[klamath-river-blue-creek]]></title>
-    <caption><![CDATA[]]></caption>
+    <title><![CDATA[Klamath River & Blue Creek]]></title>
+    <caption><![CDATA[The Blue Pool, at the confluence of Blue Creek and the Klamath River. Blue Creek is the first and most important cold-water refuge for wild salmon and steelhead on the lower Klamath. Photo Credit: Dave Jensen &raquo; <a href="../klamath-river-blue-creek.html">view project</a>]]></caption>
   </image>
+
   <image imageURL="images/klamath-river-p28.jpg"
 	thumbURL="thumbs/klamath-river-p28.jpg"
 	linkURL="images/klamath-river-p28.jpg"
 	linkTarget="_blank"
 	sourcePath="images/klamath-river-p28.jpg">
-    <title><![CDATA[klamath-river-p28]]></title>
-    <caption><![CDATA[]]></caption>
+    <title><![CDATA[Klamath River]]></title>
+    <caption><![CDATA[&raquo; <a href="../klamath-river-blue-creek.html">view project</a>]]></caption>
   </image>
+
   <image imageURL="images/klamath-valley-lupines-p32.jpg"
 	thumbURL="thumbs/klamath-valley-lupines-p32.jpg"
 	linkURL="images/klamath-valley-lupines-p32.jpg"
 	linkTarget="_blank"
 	sourcePath="images/klamath-valley-lupines-p32.jpg">
-    <title><![CDATA[klamath-valley-lupines-p32]]></title>
-    <caption><![CDATA[]]></caption>
+    <title><![CDATA[Klamath Vallery Lupines]]></title>
+    <caption><![CDATA[&raquo; <a href="../klamath-river-blue-creek.html">view project</a>]]></caption>
   </image>
+
   <image imageURL="images/little-cimarron-river-dry-stretch.jpg"
 	thumbURL="thumbs/little-cimarron-river-dry-stretch.jpg"
 	linkURL="images/little-cimarron-river-dry-stretch.jpg"
 	linkTarget="_blank"
 	sourcePath="images/little-cimarron-river-dry-stretch.jpg">
-    <title><![CDATA[little-cimarron-river-dry-stretch]]></title>
-    <caption><![CDATA[]]></caption>
+    <title><![CDATA[Little Cimarron River]]></title>
+    <caption><![CDATA[During periods of low flow, this stretch of the Little Cimarron runs dry, disconnecting trout habitat between the upper and lower river. Photo Credit: Russ Schnitzer &raquo; <a href="../little-cimarron-river.html">view project</a>]]></caption>
   </image>
+
   <image imageURL="images/little-cimarron-river.jpg"
 	thumbURL="thumbs/little-cimarron-river.jpg"
 	linkURL="images/little-cimarron-river.jpg"
 	linkTarget="_blank"
 	sourcePath="images/little-cimarron-river.jpg">
-    <title><![CDATA[little-cimarron-river]]></title>
-    <caption><![CDATA[]]></caption>
+    <title><![CDATA[Little Cimarron River]]></title>
+    <caption><![CDATA[The upper reaches of the Little Cimarron are prime trout water.
+photo credit: RICHARD DURNAN &raquo; <a href="../little-cimarron-river.html">view project</a>]]></caption>
   </image>
+
   <image imageURL="images/lower-deer-creek-falls-hikers.jpg"
 	thumbURL="thumbs/lower-deer-creek-falls-hikers.jpg"
 	linkURL="images/lower-deer-creek-falls-hikers.jpg"
 	linkTarget="_blank"
 	sourcePath="images/lower-deer-creek-falls-hikers.jpg">
-    <title><![CDATA[lower-deer-creek-falls-hikers]]></title>
-    <caption><![CDATA[]]></caption>
+    <title><![CDATA[Lower Deer Creek Falls]]></title>
+    <caption><![CDATA[In addition to conserving prime salmon and steelhead habitat, WRC's efforts on Deer Creek complete a popular riverside trail. Photo Credit: Jenny Duvander &raquo; <a href="../lower-deer-creek-falls.html">view project</a>]]></caption>
   </image>
+
   <image imageURL="images/lower-deer-creek.jpg"
 	thumbURL="thumbs/lower-deer-creek.jpg"
 	linkURL="images/lower-deer-creek.jpg"
 	linkTarget="_blank"
 	sourcePath="images/lower-deer-creek.jpg">
-    <title><![CDATA[lower-deer-creek]]></title>
-    <caption><![CDATA[]]></caption>
+    <title><![CDATA[Lower Deer Creek Falls]]></title>
+    <caption><![CDATA[Deer Creek is one of the last streams in the Sierra Nevada with healthy runs of spring Chinook and steelhead.
+photo credit: CINDY DIAZ &raquo; <a href="../lower-deer-creek-falls.html">view project</a>]]></caption>
   </image>
+
   <image imageURL="images/minam-river-p1.jpg"
 	thumbURL="thumbs/minam-river-p1.jpg"
 	linkURL="images/minam-river-p1.jpg"
 	linkTarget="_blank"
 	sourcePath="images/minam-river-p1.jpg">
-    <title><![CDATA[minam-river-p1]]></title>
-    <caption><![CDATA[]]></caption>
+    <title><![CDATA[Minam River]]></title>
+    <caption><![CDATA[&raquo; <a href="../minam-river.html">view project</a>]]></caption>
   </image>
+
   <image imageURL="images/minam-river-rafting.jpg"
 	thumbURL="thumbs/minam-river-rafting.jpg"
 	linkURL="images/minam-river-rafting.jpg"
 	linkTarget="_blank"
 	sourcePath="images/minam-river-rafting.jpg">
-    <title><![CDATA[minam-river-rafting]]></title>
-    <caption><![CDATA[]]></caption>
+    <title><![CDATA[Minam River]]></title>
+    <caption><![CDATA[Thousands of boaters, anglers and hikers visit the Minam River every year to enjoy its rugged beauty. Photo Credit: Leon Werdinger &raquo; <a href="../minam-river.html">view project</a>]]></caption>
   </image>
+
   <image imageURL="images/minam-river.jpg"
 	thumbURL="thumbs/minam-river.jpg"
 	linkURL="images/minam-river.jpg"
 	linkTarget="_blank"
 	sourcePath="images/minam-river.jpg">
     <title><![CDATA[minam-river]]></title>
-    <caption><![CDATA[]]></caption>
+    <caption><![CDATA[WRC's recent work on the Minam River places a favorite boating access area into public hands for good. Photo Credit: Dave Jensen &raquo; <a href="../minam-river.html">view project</a>]]></caption>
   </image>
+
   <image imageURL="images/nason-creek-wolf.jpg"
 	thumbURL="thumbs/nason-creek-wolf.jpg"
 	linkURL="images/nason-creek-wolf.jpg"
 	linkTarget="_blank"
 	sourcePath="images/nason-creek-wolf.jpg">
-    <title><![CDATA[nason-creek-wolf]]></title>
-    <caption><![CDATA[]]></caption>
+    <title><![CDATA[Nason Creek]]></title>
+    <caption><![CDATA[The first pack of gray wolves known to reinhabit Washington state was identified in the Okanogan-Wenatchee National Forest. Photo Credit: Tom and Pat Leeson &raquo; <a href="../nason-creek.html">view project</a>]]></caption>
   </image>
+
   <image imageURL="images/nason-creek.jpg"
 	thumbURL="thumbs/nason-creek.jpg"
 	linkURL="images/nason-creek.jpg"
 	linkTarget="_blank"
 	sourcePath="images/nason-creek.jpg">
-    <title><![CDATA[nason-creek]]></title>
-    <caption><![CDATA[]]></caption>
+    <title><![CDATA[Nason Creek]]></title>
+    <caption><![CDATA[WRC's acquisition above Nason Creek, a key cold-water tributary of the Wenatchee River, improves habitat for native fish and wildlife. Photo Credit: Lee Rentz &raquo; <a href="../nason-creek.html">view project</a>]]></caption>
   </image>
+
   <image imageURL="images/north-santiam-angler.jpg"
 	thumbURL="thumbs/north-santiam-angler.jpg"
 	linkURL="images/north-santiam-angler.jpg"
 	linkTarget="_blank"
 	sourcePath="images/north-santiam-angler.jpg">
-    <title><![CDATA[north-santiam-angler]]></title>
-    <caption><![CDATA[]]></caption>
+    <title><![CDATA[North Santiam]]></title>
+    <caption><![CDATA[A steelhead angler fishes through the North Santiam conservation property, which protects two miles of river frontage. Photo Credit: STEVE TERRILL &raquo; <a href="../north-santiam.html">view project</a>]]></caption>
   </image>
+
   <image imageURL="images/north-santiam.jpg"
 	thumbURL="thumbs/north-santiam.jpg"
 	linkURL="images/north-santiam.jpg"
 	linkTarget="_blank"
 	sourcePath="images/north-santiam.jpg">
-    <title><![CDATA[north-santiam]]></title>
-    <caption><![CDATA[]]></caption>
+    <title><![CDATA[North Santiam]]></title>
+    <caption><![CDATA[WRC is conserving the most intact tract of native riparian forest on the lower North Santiam River. Photo Credit: Steve Terrill &raquo; <a href="../north-santiam.html">view project</a>]]></caption>
   </image>
+
   <image imageURL="images/salmon-river-chinook.jpg"
 	thumbURL="thumbs/salmon-river-chinook.jpg"
 	linkURL="images/salmon-river-chinook.jpg"
 	linkTarget="_blank"
 	sourcePath="images/salmon-river-chinook.jpg">
-    <title><![CDATA[salmon-river-chinook]]></title>
-    <caption><![CDATA[]]></caption>
+    <title><![CDATA[Salmon River]]></title>
+    <caption><![CDATA[Chinook (pictured), sockeye and steelhead migrate over 900 miles to spawn in the Salmon River. Photo Credit: Tom and Pat Leeson &raquo; <a href="../salmon-river.html">view project</a>]]></caption>
   </image>
+
   <image imageURL="images/salmon-river.jpg"
 	thumbURL="thumbs/salmon-river.jpg"
 	linkURL="images/salmon-river.jpg"
 	linkTarget="_blank"
 	sourcePath="images/salmon-river.jpg">
-    <title><![CDATA[salmon-river]]></title>
-    <caption><![CDATA[]]></caption>
+    <title><![CDATA[Salmon River]]></title>
+    <caption><![CDATA[From a rocky outcrop, a hiker looks out over the remote Salmon River property that WRC committed to purchase in 2012. Photo Credit: Dave Jensen &raquo; <a href="../salmon-river.html">view project</a>]]></caption>
   </image>
+
   <image imageURL="images/sandy-river-rafters.jpg"
 	thumbURL="thumbs/sandy-river-rafters.jpg"
 	linkURL="images/sandy-river-rafters.jpg"
 	linkTarget="_blank"
 	sourcePath="images/sandy-river-rafters.jpg">
-    <title><![CDATA[sandy-river-rafters]]></title>
-    <caption><![CDATA[]]></caption>
+    <title><![CDATA[Sandy River]]></title>
+    <caption><![CDATA[Rafters float the Sandy River, which now flows freely from the glaciers of Mount Hood to the Columbia River, passing within 15 miles of downtown Portland. Photo Credit: NW River Guides &raquo; <a href="../sandy-river.html">view project</a>]]></caption>
   </image>
+
   <image imageURL="images/sandy-river.jpg"
 	thumbURL="thumbs/sandy-river.jpg"
 	linkURL="images/sandy-river.jpg"
 	linkTarget="_blank"
 	sourcePath="images/sandy-river.jpg">
-    <title><![CDATA[sandy-river]]></title>
-    <caption><![CDATA[]]></caption>
+    <title><![CDATA[Sandy River]]></title>
+    <caption><![CDATA[Critical habitat for salmon and steelhead, Boulder Creek is one of four key Sandy River tributaries that WRC has protected in partnership with the BLM and PGE. Photo Credit: Steve Terrill  &raquo; <a href="../sandy-river.html">view project</a>]]></caption>
   </image>
+
   <image imageURL="images/yampa-river-elk.jpg"
 	thumbURL="thumbs/yampa-river-elk.jpg"
 	linkURL="images/yampa-river-elk.jpg"
 	linkTarget="_blank"
 	sourcePath="images/yampa-river-elk.jpg">
-    <title><![CDATA[yampa-river-elk]]></title>
-    <caption><![CDATA[]]></caption>
+    <title><![CDATA[Yampa River]]></title>
+    <caption><![CDATA[WRC's efforts on the Yampa create new access to the Cross Mountain Wilderness Study Area, home to one of the continentâ€™s largest herds of Rocky Mountain elk. Photo Credit: Dave Dietrich &raquo; <a href="../yampa-river.html">view project</a>]]></caption>
   </image>
+
   <image imageURL="images/yampa-river.jpg"
 	thumbURL="thumbs/yampa-river.jpg"
 	linkURL="images/yampa-river.jpg"
 	linkTarget="_blank"
 	sourcePath="images/yampa-river.jpg">
-    <title><![CDATA[yampa-river]]></title>
-    <caption><![CDATA[]]></caption>
+    <title><![CDATA[Yampa River]]></title>
+    <caption><![CDATA[WRC's acquisition on the Yampa River opens access to Cross Mountain Canyon (foreground), immediately downstream from the conservation property. Photo Credit: Rob Hanna &raquo; <a href="../yampa-river.html">view project</a>]]></caption>
   </image>
+
 </juiceboxgallery>
